@@ -1,6 +1,8 @@
 # HOMEWORK1 1 BANU CLAUDIU-RĂZVAN
 
 from math import sqrt
+import sys
+sys.stdout.reconfigure(encoding="utf-8")
 
 # 1. PARSAREA SISTEMULUI DE ECUAȚII (1 punct)
 

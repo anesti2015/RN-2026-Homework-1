@@ -210,10 +210,7 @@ if __name__ == "__main__":
     print("B     =", B)
 
     # BONUS: asemănarea dintre cofactori și formula determinantului.
-    # Formula determinantului din enunț este dezvoltarea după primul rând:
     #     det(A) = a11*C11 + a12*C12 + a13*C13
-    # Parantezele din formulă sunt determinanții minorilor M11, M12, M13,
-    # iar semnele +, -, + sunt exact (-1)^(i+j) pentru i = 1 și j = 1, 2, 3.
     print("\n--- Bonus ---")
     C = cofactor_matrix(A)
     print("a11*C11 + a12*C12 + a13*C13 =", A[0][0] * C[0][0] + A[0][1] * C[0][1] + A[0][2] * C[0][2])
